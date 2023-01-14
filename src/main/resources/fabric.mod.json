@@ -1,29 +1,29 @@
-{
+
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "betterleather",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Dimmed Glass",
+  "description": "This mod adds differing tints of glass that dim light rather than get rid of all of it.",
   "authors": [
-    "Me!"
+    "Ultragame105"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "http://ultragame105.tk/",
+    "sources": "https://github.com/ultragame105/mc-better-leather-mod-fabric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/betterleather/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tk.ultragame105.betterleather.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "betterleather.mixins.json"
   ],
 
   "depends": {

@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package tk.ultragame105.betterleather;
 
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+
 
 public class ExampleMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.

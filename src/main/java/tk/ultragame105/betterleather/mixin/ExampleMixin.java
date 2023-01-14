@@ -1,6 +1,6 @@
-package net.fabricmc.example.mixin;
+package tk.ultragame105.betterleather.mixin;
 
-import net.fabricmc.example.ExampleMod;
+import tk.ultragame105.betterleather.ExampleMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
